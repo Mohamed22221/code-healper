@@ -1,22 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { filterById } from "./helpers/filterById";
 
 function App() {
+  const list = [
+    {
+      id: 1,
+      name: "Steve",
+      email: "steve@example.com",
+    },
+    {
+      id: 2,
+      name: "John",
+      email: "john@example.com",
+    },
+    {
+      id: 3,
+      name: "Pamela",
+      email: "pam@example.com",
+    },
+    {
+      id: 4,
+      name: "Liz",
+      email: "liz@example.com",
+    },
+  ];
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {filterById(list, 4).map((item) => {
+          return <p>{item.name}</p>;
+        })}
       </header>
     </div>
   );
