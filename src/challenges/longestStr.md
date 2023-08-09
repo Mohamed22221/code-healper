@@ -18,7 +18,7 @@ Output: "bb"
 
 [enter link description here](https://leetcode.com/problems/longest-palindromic-substring/)
 
-#### solve 
+#### solve code
 
 ```javascript
 var longestPalindrome = function (s) {
