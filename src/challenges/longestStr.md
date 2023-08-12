@@ -1,7 +1,7 @@
 
 ## 5. Longest Palindromic Substring
 
-### description
+### Description
 
 Given a string s, return the longest palindromic
 
@@ -18,7 +18,7 @@ Output: "bb"
 
 [enter link description here](https://leetcode.com/problems/longest-palindromic-substring/)
 
-#### solve code
+#### Solve Code
 
 ```javascript
 var longestPalindrome = function (s) {
@@ -46,5 +46,5 @@ var longestPalindrome = function (s) {
 };
 ```
 
-#### output 
+#### Output 
  **bab** 
