@@ -28,7 +28,7 @@ export const RightComponent = ({ title }) => {
 //show result split screen in app page
 export const ShowExampleSplit = () => {
   return (
-    <SplitScreen leftWidth="md:flex-1" rightWidth="md:flex-2">
+    <SplitScreen leftWidth="md:flex-1" rightWidth="md:flex-1">
       <LeftComponent title="left" />
       <RightComponent title="right" />
     </SplitScreen>

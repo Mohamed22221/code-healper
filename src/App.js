@@ -1,12 +1,12 @@
 
 import "./App.css";
-import { ShowExampleSplit } from "./pattern/splitScreen";
+import { ShowExampleList } from "./pattern/showList";
 
 function App() {
   
   return (
     <div >
-      <ShowExampleSplit />
+      <ShowExampleList />
     </div>
   );
 }
