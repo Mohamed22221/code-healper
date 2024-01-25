@@ -1,5 +1,5 @@
 import React from "react";
-//handel split screen 
+//handel split screen
 export const SplitScreen = ({ children, leftWidth, rightWidth }) => {
   const [leftComponent, rightComponent] = children;
   return (
