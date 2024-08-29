@@ -1,11 +1,13 @@
 import "./App.css";
-
-import ShowObserver from "./pattern/observe/showObserver";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import ExampleTwoObserver from "./pattern/observe/exampleTwoObserver";
 function App() {
   return (
     <div>
 
-    <ShowObserver />
+    <ExampleTwoObserver />
+    <ToastContainer />
     </div>
   );
 }
