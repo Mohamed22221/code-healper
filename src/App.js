@@ -1,12 +1,12 @@
 import "./App.css";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import ExampleTwoObserver from "./pattern/observe/exampleTwoObserver";
+import Airplanes from "./pattern/mediator/airplanes";
 function App() {
   return (
     <div>
 
-    <ExampleTwoObserver />
+    <Airplanes />
     <ToastContainer />
     </div>
   );
