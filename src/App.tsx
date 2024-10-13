@@ -1,18 +1,15 @@
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
 import React from "react";
-
-
-import AppTerrain from "./pattern/flyweight/Flyweight";
-import Game from "./pattern/flyweight/FlyWeightTwo";
+import Shop from "./pattern/facade";
 
 function App() {
-  //implement strategy pattern
+
 
   return (
-    <div className=" my-4 ">
-      {/* <AppTerrain /> */}
-      <Game />
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+      <h1 className="text-3xl font-bold mb-8">Smart Reference Facade Example</h1>
+      <Shop />
     </div>
   );
 }
